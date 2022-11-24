@@ -1,0 +1,100 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.App-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  width: 430px;
+  margin-top: 25px;
+}
+.b1{
+  background-color: cornflowerblue;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 3px 3px 3px 3px;
+  cursor: pointer;
+}
+#input
+{
+  height: 35px;
+  width: 370px;
+  border-radius: 5px 5px 5px 5px;
+  border:1px solid lightgrey;
+  padding: 0 7px;
+}
+.list {
+  margin-top: 20px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 300px;
+}
+.container {
+  height: 40px;
+  width: 410px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  background:lightgrey;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 3px; 
+  
+}
+.item {
+  height: 40px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 410px;
+ margin-top: 10px;
+  
+}
+.pointerClass{
+  cursor: pointer;
+}
+.button{
+  background-color: crimson;
+  color: #f2f2f2;
+  height: 35px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 5px 5px;
+}
+.heading{
+  margin-top: 30px;
+  display: flex;
+  width: 430px;
+  align-items: flex-start;
+  font-size: 25px;
+  font-weight: 700;
+}
